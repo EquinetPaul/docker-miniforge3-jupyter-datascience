@@ -1,6 +1,6 @@
 # docker-miniforge3-jupyter-datascience
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://github.com/EquinetPaul/docker-miniforge3-jupyter-datascience) 
+<! -- [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://github.com/EquinetPaul/docker-miniforge3-jupyter-datascience) -->
 
 #### Minimal structure for Python Datascience Development in Jupyter Notebook using Miniforge environment
 
