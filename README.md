@@ -1,6 +1,6 @@
 # docker-miniforge3-jupyter-datascience
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](EquinetPaul/docker-miniforge3-jupyter-datascience) 
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://github.com/EquinetPaul/docker-miniforge3-jupyter-datascience) 
 
 ## Services
 - miniforge3 that uses image 'condaforge/miniforge3'
