@@ -1,15 +1,18 @@
 version: '3'
 services:
   miniforge3:
-    image: condaforge/miniforge3
+    build: conda
     volumes:
-      - .:/app
+      - shared:/app/shared
   jupyter:
-    image: jupyter/scipy-notebook
+    build: jupyter
     volumes:
-      - .:/app
+      - shared:/app/shared
     ports:
       - "8888:8888"
     command: "start-notebook.sh --NotebookApp.token=''"
     depends_on:
       - miniforge3
+
+volumes:
+  shared:
