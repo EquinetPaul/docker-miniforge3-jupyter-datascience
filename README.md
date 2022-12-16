@@ -32,3 +32,7 @@ Create a container from 'condaforge/miniforge3' image and copy and run python sc
 
 #### jupyter
 Create a container from 'jupyter/scipy-notebook' image and copy a notebook.
+
+## To do (ideas)
+? : copy and run every python scripts in the shared folder (RUN python *.py)
+? : run notebooks
