@@ -1,2 +1,3 @@
 # docker-miniforge3-jupyter-datascience
-docker-compose for minimal structure for python datascience dev
+
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](EquinetPaul/docker-miniforge3-jupyter-datascience) 
