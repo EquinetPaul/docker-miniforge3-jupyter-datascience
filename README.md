@@ -1,3 +1,17 @@
 # docker-miniforge3-jupyter-datascience
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](EquinetPaul/docker-miniforge3-jupyter-datascience) 
+
+## Services
+- miniforge3 that uses image 'condaforge/miniforge3'
+- jupyter that uses image 'jupyter/scipy-notebook'
+
+## Running
+```sh
+docker-compose up
+```
+And in browser: 
+
+```sh
+http://127.0.0.1:8888/lab
+```
