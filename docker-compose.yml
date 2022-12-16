@@ -1,0 +1,15 @@
+version: '3'
+services:
+  miniforge3:
+    image: condaforge/miniforge3
+    volumes:
+      - .:/app
+  jupyter:
+    image: jupyter/scipy-notebook
+    volumes:
+      - .:/app
+    ports:
+      - "8888:8888"
+    command: "start-notebook.sh --NotebookApp.token=''"
+    depends_on:
+      - miniforge3
